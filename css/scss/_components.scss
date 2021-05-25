@@ -1,0 +1,99 @@
+/* Start header shortcut*/
+%headerLinks {
+  color: $main-color;
+  border-bottom: 1px solid $main-color;
+}
+/* End header shortcut*/
+
+/* Start landing shortcut*/
+%bulletsEffect {
+  background-color: $main-color;
+  border-color: $main-color;
+}
+/* End landing shortcut*/
+
+/* Start Design shortcut*/
+%img-text-common {
+  position: relative;
+  z-index: 2;
+}
+/* End  Design shortcut*/
+
+/* Start Main HEading shortcut*/
+.main-heading{
+  text-align: center ;
+  h2 {
+    font-weight: normal;
+    font-size: 38px;
+    position: relative;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+    &::before {
+      content: '';
+      position: absolute;
+      left: 50%;
+      bottom: -30px;
+      transform: translateX(-50%);
+      height: 2px;
+      width: 120px;
+      background-color: #333;
+    }
+    &::after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      border: 2px solid #333;
+      background-color: white;
+      bottom: -38px;
+    }
+  }
+  p {
+    width: 550px;
+    margin: 0 auto 100px;
+    max-width: 100%;
+    line-height: 2;
+    color: #777;
+  }
+}
+/* End Main HEading shortcut*/
+
+/* Start Icon-pos shortcut*/
+%icon-sudo{
+  position: relative;
+        top: 1px;
+        font-family: 'font awesome 5 free';
+        content: '\f10e';
+        font-weight: 900;
+        margin-right: 10px;
+}
+/* End  Icon shortcut*/
+
+/* Start shuffle shortcut*/
+%shuffleEffect {
+  background-color: $main-color;
+  color: white;
+}
+/* End shuffle shortcut*/
+
+/* Start Overlay shortcut*/
+%overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00000099;
+}
+/* End  Overlay shortcut*/
+
+/* Start Center shortcut*/
+%posCenter {
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+}
+/* End  Center shortcut*/
